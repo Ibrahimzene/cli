@@ -1,7 +1,7 @@
 import { PageManager } from './PageManager';
 import * as tools from './tools';
 
-const pageIdCode = tools.getArgument(0);
+const pageIdCode = tools.getArgument(2);
 
 try {
 	const pageManager = new PageManager(pageIdCode)
